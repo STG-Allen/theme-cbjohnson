@@ -35,7 +35,7 @@ function fish_prompt
   end
 
   # Top
-  echo $yellow$__fish_prompt_hostname$normal in $bred(prompt_pwd)$normal
+  echo $cyan$USER$normal $yellow$__fish_prompt_hostname$normal in $bred(prompt_pwd)$normal
   __fish_git_prompt
 
   echo
